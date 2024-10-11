@@ -19,39 +19,11 @@ Pro plan customers have no watch time limits and are able to download videos for
 Customers can sign up to an initial 7 day free trial will automatically continue with the pro monthly subscription plan unless they cancel, downgrade to basic or upgrade to an annual pro plan at any point during the trial.
 When customers cancel their Foodie-Fi service - they will have a churn plan record with a null price but their plan will continue until the end of the billing period.
 
-plan_id	plan_name	price
-0	trial	0
-1	basic monthly	9.90
-2	pro monthly	19.90
-3	pro annual	199
-4	churn	null
 Table 2: subscriptions
 Customer subscriptions show the exact date where their specific plan_id starts.-
 If customers downgrade from a pro plan or cancel their subscription - the higher plan will remain in place until the period is over - the start_date in the subscriptions table will reflect the date that the actual plan changes.
 When customers upgrade their account from a basic plan to a pro or annual pro plan - the higher plan will take effect straightaway.
 When customers churn - they will keep their access until the end of their current billing period but the start_date will be technically the day they decided to cancel their service.
-
-customer_id	plan_id	start_date
-1	0	2020-08-01
-1	1	2020-08-08
-2	0	2020-09-20
-2	3	2020-09-27
-11	0	2020-11-19
-11	4	2020-11-26
-13	0	2020-12-15
-13	1	2020-12-22
-13	2	2021-03-29
-15	0	2020-03-17
-15	2	2020-03-24
-15	4	2020-04-29
-16	0	2020-05-31
-16	1	2020-06-07
-16	3	2020-10-21
-18	0	2020-07-06
-18	2	2020-07-13
-19	0	2020-06-22
-19	2	2020-06-29
-19	3	2020-08-29
 
 Interactive SQL Instance
 You can use the embedded DB Fiddle below to easily access these example datasets - this interactive session has everything you need to start solving these questions using SQL.
@@ -79,6 +51,7 @@ How many customers have upgraded to an annual plan in 2020?
 How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
 Can you further breakdown this average value into 30 day periods (i.e. 0-30 days, 31-60 days etc)
 How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
+
 C. Challenge Payment Question
 The Foodie-Fi team wants you to create a new payments table for the year 2020 that includes amounts paid by each customer in the subscriptions table with the following requirements:
 
@@ -86,33 +59,6 @@ monthly payments always occur on the same day of month as the original start_dat
 upgrades from basic to monthly or pro plans are reduced by the current paid amount in that month and start immediately
 upgrades from pro monthly to pro annual are paid at the end of the current billing period and also starts at the end of the month period
 once a customer churns they will no longer make payments
-Example outputs for this table might look like the following:
-
-customer_id	plan_id	plan_name	payment_date	amount	payment_order
-1	1	basic monthly	2020-08-08	9.90	1
-1	1	basic monthly	2020-09-08	9.90	2
-1	1	basic monthly	2020-10-08	9.90	3
-1	1	basic monthly	2020-11-08	9.90	4
-1	1	basic monthly	2020-12-08	9.90	5
-2	3	pro annual	2020-09-27	199.00	1
-13	1	basic monthly	2020-12-22	9.90	1
-15	2	pro monthly	2020-03-24	19.90	1
-15	2	pro monthly	2020-04-24	19.90	2
-16	1	basic monthly	2020-06-07	9.90	1
-16	1	basic monthly	2020-07-07	9.90	2
-16	1	basic monthly	2020-08-07	9.90	3
-16	1	basic monthly	2020-09-07	9.90	4
-16	1	basic monthly	2020-10-07	9.90	5
-16	3	pro annual	2020-10-21	189.10	6
-18	2	pro monthly	2020-07-13	19.90	1
-18	2	pro monthly	2020-08-13	19.90	2
-18	2	pro monthly	2020-09-13	19.90	3
-18	2	pro monthly	2020-10-13	19.90	4
-18	2	pro monthly	2020-11-13	19.90	5
-18	2	pro monthly	2020-12-13	19.90	6
-19	2	pro monthly	2020-06-29	19.90	1
-19	2	pro monthly	2020-07-29	19.90	2
-19	3	pro annual	2020-08-29	199.00	3
 
 D. Outside The Box Questions
 The following are open ended questions which might be asked during a technical interview for this case study - there are no right or wrong answers, but answers that make sense from both a technical and a business perspective make an amazing impression!
@@ -125,7 +71,7 @@ What business levers could the Foodie-Fi team use to reduce the customer churn r
 Conclusion
 This case study should reflect realistic questions we usually focus on for all product related analytics requests in a wide variety of industries, especially in the digital space
 
-🍽️ Foodie-Fi Subscription Analysis SQL Project
+🍽️ Foodie-Fi Subscription Analysis SQL Project Mine Analysis:
 Welcome to my Foodie-Fi SQL project! 🎉 In this project, I performed an in-depth analysis of customer behavior and subscription patterns on the Foodie-Fi platform. Using SQL, I explored key business metrics, subscription trends, and customer upgrade/downgrade tendencies. Here’s an overview of what I’ve accomplished in this analysis:
 
 🔍 Project Overview
