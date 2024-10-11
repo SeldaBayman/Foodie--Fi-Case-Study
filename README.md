@@ -1,7 +1,8 @@
 # Foodie-Fi-3thCaseStudy with DANNYMA
 DANNY MA Foodie-Fi Case Study
 
-###![3](https://github.com/user-attachments/assets/728e35b2-db39-4ffb-829a-5117dc495d8f)
+![3 (1)](https://github.com/user-attachments/assets/fcf53c9e-2ce6-4e14-92a3-fcb30f59cf83)
+
 
 🍽️ Foodie-Fi Subscription Analysis SQL Project
 Welcome to my Foodie-Fi SQL project! 🎉 In this project, I performed an in-depth analysis of customer behavior and subscription patterns on the Foodie-Fi platform. Using SQL, I explored key business metrics, subscription trends, and customer upgrade/downgrade tendencies. Here’s an overview of what I’ve accomplished in this analysis:
