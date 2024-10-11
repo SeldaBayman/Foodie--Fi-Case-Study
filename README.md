@@ -1,6 +1,8 @@
-DANNY MA Foodie-Fi Case Study
-ase Study #3 - Foodie-Fi
+DANNY MA
+Case Study #3 - Foodie-Fi
 Danny Ma · May 18, 2021
+
+![63386b11-8142-400c-92cc-65b9677c63d5](https://github.com/user-attachments/assets/ecc54e1c-b0ca-4292-b01f-b738590c9c83)
 
 Introduction
 Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows!
