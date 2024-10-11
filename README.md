@@ -1,6 +1,4 @@
-DANNY MA
-Case Study #3 - Foodie-Fi
-Danny Ma · May 18, 2021
+DANNY MA/ Case Study #3 - Foodie-Fi /Danny Ma · May 18, 2021
 
 ![63386b11-8142-400c-92cc-65b9677c63d5](https://github.com/user-attachments/assets/ecc54e1c-b0ca-4292-b01f-b738590c9c83)
 
@@ -123,12 +121,9 @@ What key metrics would you recommend Foodie-Fi management to track over time to 
 What are some key customer journeys or experiences that you would analyse further to improve customer retention?
 If the Foodie-Fi team were to create an exit survey shown to customers who wish to cancel their subscription, what questions would you include in the survey?
 What business levers could the Foodie-Fi team use to reduce the customer churn rate? How would you validate the effectiveness of your ideas?
+
 Conclusion
 This case study should reflect realistic questions we usually focus on for all product related analytics requests in a wide variety of industries, especially in the digital space
-
-
-![3 (1)](https://github.com/user-attachments/assets/fcf53c9e-2ce6-4e14-92a3-fcb30f59cf83)
-
 
 🍽️ Foodie-Fi Subscription Analysis SQL Project
 Welcome to my Foodie-Fi SQL project! 🎉 In this project, I performed an in-depth analysis of customer behavior and subscription patterns on the Foodie-Fi platform. Using SQL, I explored key business metrics, subscription trends, and customer upgrade/downgrade tendencies. Here’s an overview of what I’ve accomplished in this analysis:
