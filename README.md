@@ -1,4 +1,4 @@
-DANNY MA/ Case Study #3 - Foodie-Fi /Danny Ma · May 18, 2021
+Case Study #3 - Foodie-Fi /Danny MA · May 18, 2021
 
 ![63386b11-8142-400c-92cc-65b9677c63d5](https://github.com/user-attachments/assets/ecc54e1c-b0ca-4292-b01f-b738590c9c83)
 
