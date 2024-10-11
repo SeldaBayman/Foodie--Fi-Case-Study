@@ -170,4 +170,6 @@ Data Visualization Tools (optional depending on if you used any tools for showca
 📂 Check the Project
 Feel free to explore the SQL queries and analyses in this repository. Each query is designed to answer specific business questions regarding customer subscriptions and behaviors on the 
 Foodie-Fi platform.
+
+
 https://8weeksqlchallenge.com/case-study-3/
