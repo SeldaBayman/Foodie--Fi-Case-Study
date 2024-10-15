@@ -86,7 +86,7 @@ Time Period Breakdown: Grouped customers’ transition times into 30-day periods
 
 Downgrade Analysis: Identified how many customers downgraded from the Pro Monthly plan to the Basic Monthly plan in 2020 and evaluated potential reasons behind this behavior.
 
-🏆 A-B-C Section Solutions
+🏆 A-B-C-D Section Solutions
 In addition to the general analysis, I successfully tackled the A-B-C Sections of the project:
 
 ![7_B](https://github.com/user-attachments/assets/7ce97c12-dcd1-4fc1-bb99-d39a3e5be898)
@@ -96,6 +96,7 @@ In addition to the general analysis, I successfully tackled the A-B-C Sections o
 A Section: Compared the success rates of different subscription plans by grouping customer data effectively.
 B Section: Analyzed the trend of subscription cancellations over time, providing strategic insights into customer churn.
 C Section: Explored correlations between metrics such as upgrades, downgrades, and cancellation tendencies, helping to better understand customer behavior.
+D Section:Identified business strategies to reduce customer churn and improve retention, focusing on key growth metrics, customer journey analysis, and personalized engagement campaigns to enhance long-term success.
 
 ![9_B](https://github.com/user-attachments/assets/df174663-a740-4f58-8bea-2f5f89b08a98)
 
@@ -108,6 +109,10 @@ This project gave me valuable insights into the subscription dynamics on the Foo
 Customers tend to upgrade to Annual Plans within the first 45 days after joining.
 The Basic Monthly plan has the largest customer base, while upgrades to Pro Monthly and Annual Plans require further incentives.
 Downgrade trends suggest pricing sensitivity among some customers, particularly between the Pro and Basic plans.
+Customers who engage frequently with premium content are more likely to remain subscribed to higher-tier plans, indicating a need for enhanced content offerings to improve retention in premium plans.
+Churn rates are highest in the first 60 days, suggesting that improving the onboarding experience and offering personalized incentives during this period could significantly reduce cancellations.
+A strong correlation between customer engagement and long-term retention highlights the importance of personalized campaigns to re-engage inactive users and drive loyalty.
+Finally, implementing flexible subscription options, such as a pause feature or loyalty rewards, could help retain customers facing price sensitivity or reduced platform usage.
 
 💻 Technologies Used
 SQL: Core analysis and data querying.
